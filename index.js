@@ -12,7 +12,7 @@ const MAX_RETRIES = 10;
 const BATCH_SIZE = 4;
 const RETRY_DELAY = 1000;
 const PRODUCTS_PER_PAGE = 250;
-const BACKUP_EVERY = 1000;
+const BACKUP_EVERY = 250;
 
 const TG_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TG_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
