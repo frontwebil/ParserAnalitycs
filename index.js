@@ -15,13 +15,13 @@ const BASE_URL = "https://partsnet.ca";
 const MAX_RETRIES = 10;
 const BATCH_SIZE = 10;
 const PRODUCTS_PER_PAGE = 250;
-const BACKUP_EVERY = 250;
+const BACKUP_EVERY = 1000;
 
 // Часові налаштування
-const REQUEST_DELAY = 300; // пауза між запитами товарів
-const BATCH_DELAY = 1000; // пауза між batch
-const RETRY_DELAY = 1000; // базова пауза перед retry
-const REQUEST_TIMEOUT = 15000; // timeout одного HTTP-запиту
+const REQUEST_DELAY = 300;
+const BATCH_DELAY = 1000;
+const RETRY_DELAY = 1000;
+const REQUEST_TIMEOUT = 15000;
 
 // =========================
 
